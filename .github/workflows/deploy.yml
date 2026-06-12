@@ -21,8 +21,7 @@ jobs:
 
       - run: flutter pub get
 
-      - run: flutter build web --release --base-href "/NAMA_REPO/"
-
+      - run: flutter build web --release --base-href "/warung_nasi_web/
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
